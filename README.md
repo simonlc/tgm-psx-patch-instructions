@@ -5,7 +5,7 @@ Building the tools to apply this patch correctly requires xcode to be installed.
 ### Make a directory to work in
 
 ```
-mkdir -p Projects/tgm-psx-patch && Projects/tgm-psx-patch
+mkdir -p Projects/tgm-psx-patch && cd Projects/tgm-psx-patch
 ```
 
 ### Extract patch
@@ -28,7 +28,7 @@ unzip ~/Downloads/tgmj.zip -d patch
 
 Using an IPS patcher utility, patch `MAIN.BIN` with `tgm_psx_v1.2a.ips`
 
-#### Apply CD-DA music patch
+#### (Optional) Apply CD-DA music patch
 
 Using an IPS patcher utility, patch the already patched `MAIN.BIN` with `cdda_music.ips`
 
