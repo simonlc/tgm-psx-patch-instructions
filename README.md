@@ -66,7 +66,7 @@ cd patch
 First compile bin2exe_tgm.c
 
 ```
-clang bin2exe_tgm.c -o bin2exe_tgm
+make bin2exe_tgm
 ```
 
 Now convert MAIN.BIN
