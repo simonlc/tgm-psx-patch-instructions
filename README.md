@@ -95,7 +95,7 @@ cp ~/Downloads/psyq/cdgen/LCNSFILE/LICENSEA.DAT .
 mv ../TGM_ROM_DATA .
 ```
 
-Copy SYSTEM.CFN into rom data directory:
+Copy SYSTEM.CNF into rom data directory:
 ```
 cp SYSTEM.CNF TGM_ROM_DATA/
 ```
